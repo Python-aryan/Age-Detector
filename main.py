@@ -10,7 +10,7 @@
 
 # Users can optionally provide a year, and your program must tell their age in that particular year. (3points)
 
-# Your code should handle all sort of errors like:                    
+# Your code should handle all sort of errors like:                       (2 points)
 
 # You are not yet born
 
@@ -56,6 +56,25 @@ elif aorb=="b":
 
 
 
+elif aorb=="c":
+
+    year1 = int(input("Please Enter your year of birth \n"))
+
+    if year1 < 1900:
+
+        print("You seem to be the oldest person alive !!!")
+
+    if year1>2020:
+
+        print("You are not yet born !!")
+
+
+
+    year2 = int(input("Please Enter the year\n"))
+
+    final = year2 - year1
+
+    print(f"In year {year2} you will be of {final} years. ")
 
 
 
